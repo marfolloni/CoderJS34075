@@ -48,7 +48,7 @@ let producto = parseInt(
   const totalCompraConDescuento = descuento(totalCompra)
   alert(`El total de tu compra con descuento es de dolares ${totalCompraConDescuento}`)
   alert(`Felicidades, el total de tu descuento fue de dolares ${totalCompraConDescuento-totalCompra}`)
-  alert(`Gracias por tu compra !`)
+  alert(`Gracias por tu compra!`)
 
   function descuento(valor) {
     let descuento = 0
